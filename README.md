@@ -1,3 +1,8 @@
-# face-detector-using-CNN
-In this Project I have used CNN model for Image Classification where I first used Hog Face detector to detect human faces, after detecting the human faces of 10 different persons I created a Sequential model training on the labelled data of 10 different persons.
-After training on the labelled data the model is tested against the tet_data containing never seen images of the same 10 persons and Using the learnings on the training data, the model works on identifying the persons in the process.
+Human Face Recognition Using CNN and HOG Face Detector
+
+In this project, I developed an image classification model using a Convolutional Neural Network (CNN) to recognize human faces. The process involved several key steps:
+
+Face Detection: I utilized the Histogram of Oriented Gradients (HOG) face detector to identify human faces in images.
+Data Preparation: After detecting faces, I collected and labeled data for 10 different individuals.
+Model Training: I created a Sequential model and trained it on the labeled data of these 10 individuals.
+Model Testing: The trained model was then tested on a separate test dataset containing previously unseen images of the same 10 individuals. The model leveraged its training to accurately identify the individuals in the test images.
